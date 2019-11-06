@@ -9,4 +9,9 @@ int main(){
 	//Definição das variaveis
 	int x1,y1,x2,y2;
 	float distancia;
+	
+	printf("Informe a coordenadas pra o primeiro ponto:");
+	scanf("%i %i", x1, y1);
+	printf("Informe a coordenadas pra o segundo ponto:");
+	scanf("%i %i", x2, y2);
 }
