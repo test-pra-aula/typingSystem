@@ -1,0 +1,67 @@
+git config --global user.name "Gabriel Pimentel"
+git config --global user.email "gabrielcosta.tads@gmail.com"
+
+
+1 - Ativar a Visualização de Arquivos Ocultos.
+
+2 - Fazer um arquivo txt .gitignore na raiz da pasta do projeto para conter os arquivos que não devem ser controlador pelo git.
+
+3 - Procure no google por arquivos que devem ser ignorador em seu projeto (Cada linguagem)
+
+4 - Com o Git ClI na pasta raiz do seu projeto execute o comando
+	git init
+
+5 - git status 
+
+
+
+#Salvado a versão do projeto
+
+git status
+
+Coloque os arquivos na area de estage
+	git add .
+esse ponto quer dizer que todos os arquivos vão ser alterados
+
+Realizar o commit
+	git commit -m "[Descrição do Commit]"
+A Descrição do Commit
+
+git log
+git log --oneline
+
+------------------------------------------
+
+git reset --hard HEAD~1 Desfaz o ultimo commit a a versão tb
+
+git checkout <Codigo do comit>
+
+git checkout <Codigo do branch> (Master)
+
+=========================================================
+
+Git Hub
+
+https://github.com/
+
+test-pra-aula
+
+12345gabriel67890
+
+Adicionar no github
+	git remote add origin https://github.com/test-pra-aula/typingSystem.git //
+
+	git remote set-url origin <url do github>
+
+git push -u origin master
+
+-------------------------------------------------------
+Clonar Projetos
+
+git clone <url>
+
+========================================================
+Baixar o original se vc ainda esta rtabalahndo e 
+esta desatualizado em relações aos versões.
+
+git pull original master
