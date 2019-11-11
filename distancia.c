@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <math.h>
 
 //Função que calcula a distancia entre dois pontos
@@ -15,11 +16,9 @@ int main(){
 	printf("Informe a coordenadas pra o segundo ponto:");
 	scanf("%i %i", &x2, &y2);
 	
-	//Calcual a distania entre dois pontos
+	//Calcual a distania e mostra o resultado
 	distancia = calculaDistancia(x1, y1, x2, y2);
-	
-	//Mostra o resultado
-	printf("\n\nDistancia: %f \n\n", distancia);
-	
+	printf("\n\nDistancia: %.2f \n\n", distancia);
+	system("pause");
 	return 0;
 }
